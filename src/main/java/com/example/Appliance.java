@@ -2,13 +2,12 @@ package com.example;
 
 public class Appliance {
     // Attributes
-    // TODO: Declare common attributes for electronic devices, such as brand and model and powerUsage.
         private String brand;
         private String model;
         private int powerUsage;
     // Constructor
     public Appliance(String brand, String model, int powerUsage) {
-        // TODO: Initialize all attributes
+
         this.brand = brand;
         this.model = model;
         this.powerUsage = powerUsage;
@@ -23,8 +22,7 @@ public class Appliance {
     public int getPowerUsage(){
         return this. powerUsage;
     }
-    // Getters
-    // TODO: Implement getters for brand, model, and powerUsage
+
 
     // public String displayInfo(){
     //     return getBrand()+getModel()+getPowerUsage();
